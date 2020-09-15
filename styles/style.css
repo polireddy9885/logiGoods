@@ -1,0 +1,259 @@
+/*
+Template Name     : logiGoods
+Author Name       : Sai Ganesh Reddy Buthukuri
+Author Email      : saiganeshreddy4228@outlook.com
+Theme URI         : www.logiGoods.com | local/logiGoods
+Theme Ver         : 0.1
+*/
+
+/* General Styles */
+
+body {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #000000;
+    background: #e6e6e6;
+    overflow-x: hidden;
+    padding-bottom: 1000px;
+}
+
+/* Top Styles */
+
+#top {
+    background: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+#top .offer {
+    color: white;
+}
+
+
+#top .offer .btn {
+    text-transform: uppercase;
+}
+
+@media(max-width: 991px) {
+    #top .offer {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 991px) {
+    #top {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+#top a {
+    color: #000000;
+}
+
+#top ul.menu {
+    padding-top: 5px;
+    margin: 0px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+}
+
+@media(max-width: 991px) {
+    #top ul.menu {
+        text-align: center;
+    }
+}
+
+#top ul.menu > li {
+    display: inline-block;
+}
+
+#top ul.menu > li a {
+    color: #000000;
+}
+
+#top ul.menu > li + li:before {
+    content: "|\00a0";
+    color: #000000;
+    padding: 0 5px;
+}
+
+/* Header Styles */
+
+.navbar {
+    background: rgba(232, 205, 205, 0.30);
+}
+
+.navbar-collapse .right {
+    float: right;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 28px;
+    height: 70px;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar ul.nav > li > a {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.navbar ul.nav > li > a:hover {
+    background: #e6e6e6;
+}
+
+.padding-nav {
+    padding-top: 8px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background:rgb(213, 127, 22) ;
+    border-color: #000000;
+}
+
+#search .navbar-form {
+    float: right;
+}
+
+#search {
+    clear: both;
+    border-top: solid 1px #9adacd;
+    text-align: right;
+}
+
+#search .navbar-form .input-group {
+    display: table;
+}
+
+#search .navbar-form .input-group .form-control {
+    width: 100%;
+}
+
+#slider {
+    margin-bottom: 40px;
+}
+
+/*advanatages styles */
+#advantages {
+    text-align: center;
+}
+
+#advantages .box {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.3);
+}
+
+#advantages .box .icon {
+    position: absolute;
+    font-size: 120px;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    height: 100%;
+    left: 0px;
+    float: left;
+    color: #eeeeee;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#advantages .box h3 {
+    position: relative;
+    margin: 0px 0px 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#advantages .box h3 a {
+    color: #000000;
+}
+
+#advantages .box h3 a:hover {
+    text-decoration: none;
+}
+
+#advantages .box p {
+    position: relative;
+    z-index: 2;
+    color: #555555;
+}
+/*hot latest products */
+.box {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.3);
+}
+
+#hot h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content {
+    padding-left: 25px;
+}
+
+.single {
+    width: 290px;
+}
+
+@media(max-width:768px) {
+    .single {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+#content .product {
+    background: #ffffff;
+    border: solid 1px #e6e6e6;
+    margin-bottom: 36px;
+    box-sizing: border-box;
+}
+
+#content .product .text {
+    padding: 10px 10px 10px 10px;
+}
+
+#content .product .text p.price {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#content .product .text .button {
+    text-align: center;
+    clear: both;
+}
+
+#content .product .text .button .btn {
+    text-align: center;
+}
+
+#content .product .text h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
+#content .product .text h3 a {
+    color: rgb(85,85,85);
+}
